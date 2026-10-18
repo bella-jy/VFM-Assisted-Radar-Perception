@@ -1,5 +1,5 @@
 # VFM-Assisted-Radar-Perception
-# SAM-Guided CenterFusion
+# SAM-Guided Fusion
 
 A research prototype for 3D object detection under low visibility using camera images, radar data, and semantic priors from an adapted Segment Anything Model (SAM).
 
@@ -14,7 +14,7 @@ SAM and the detector are trained separately. Semantic priors are generated offli
 ```text
 Images + reference images -> Adapted SAM -> Semantic priors
 Radar + calibration + semantic priors -> Filtered radar
-Images + semantic priors + filtered radar -> CenterFusion -> 3D detections
+Images + semantic priors + filtered radar -> Fusion -> 3D detections
 ```
 ## Installation
 

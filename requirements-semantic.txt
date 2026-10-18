@@ -1,0 +1,17 @@
+# Install a matching torch/torchvision pair for your CPU or CUDA platform first.
+# This separate file avoids the upstream Python-3.7-only dependency pins.
+numpy==1.26.4
+scipy==1.13.1
+matplotlib==3.8.4
+opencv-python-headless==4.10.0.84
+numba==0.60.0
+shapely==2.0.7
+nuscenes-devkit==1.2.0
+pycocotools>=2.0.7
+pyquaternion==0.9.9
+scikit-learn>=1.4
+progress>=1.6
+tensorboardx>=2.6
+pyyaml>=6
+easydict>=1.10
+pytest>=8
